@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7ff;
+    /* or #f5f7ff for slightly softer */
+}
+
+/* banner */
+
+.banner-container {
+    width: 100%;
+    height: 698px;
+    background-image: url(Assets/Hero-bg.png);
+    /* background-color: chocolate; */
+    margin: 0 auto;
+    margin-bottom: 116px;
+}
+
+.heading {
+    display: flex;
+    padding: 0 150px;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+    margin-bottom: 158px;
+}
+
+.heading-logo {
+    font-family: 'Inter', sans-serif;
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 132px;
+    height: 48px;
+    padding: 12px 34px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    margin-top: 50px;
+}
+
+.btn:hover {
+    background-color: rgb(38, 16, 54);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.texts {
+    width: 905px;
+    height: 237px;
+    /* background-color: aqua; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texts p {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #252432;
+    margin-bottom: 37px;
+}
+
+.btn2 {
+    width: 174px;
+    height: 48px;
+    padding: 12px 34px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    /* margin-bottom: 170px; */
+}
+
+
+.btn2:hover {
+    background-color: rgb(38, 16, 54);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+/* action */
+
+/* .action-container {
+    width: 1140px;
+    height: 328px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0 141px;
+    margin-bottom: 116px;
+} */
+
+.action-container {
+    width: 1140px;
+    margin: 0 auto;
+    /* automatically center horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 328px;
+    margin-bottom: 116px;
+}
+
+
+.action-texts h3 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    color: #252432;
+    font-family: 'Raleway', sans-serif;
+}
+
+.action-texts p {
+    font-size: 24px;
+
+    color: #252432;
+    opacity: 50%;
+    margin-bottom: 23px;
+}
+
+.btn3 {
+    width: 229px;
+    height: 48px;
+    padding: 12px 34px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+}
+
+.btn3:hover {
+    background-color: rgb(38, 16, 54);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.action-img img {
+    border-radius: 48px;
+}
+
+/* audience */
+
+/* .audience-container {
+    width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0 141px;
+    border-radius: 24px;
+} */
+
+
+.audience-container {
+    width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-bottom: 137px;
+}
+
+
+.audience-container h3 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: #252432;
+    padding: 50px 0 0 0;
+}
+
+/* .audience-data {
+    display: flex;
+    gap: 158px;
+    padding: 50px 142px;
+} */
+
+
+.audience-data {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    gap: 0;
+}
+
+/* .one, .two, .three{
+    width: 180px;
+    height: 121px;
+} */
+
+.one,
+.two,
+.three {
+    width: 180px;
+}
+
+
+.one h1,
+.two h1,
+.three h1 {
+    font-size: 80px;
+    font-weight: bold;
+
+    color: #4E47FF;
+}
+
+.one h4,
+.two h4,
+.three h4 {
+    font-size: 20px;
+    font-family: 'Inter Tight', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* review */
+
+.review-container {
+    width: 1140px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+    /* background-color: rgba(78, 71, 255, 0.1); */
+    /* border-radius: 24px; */
+    margin-bottom: 137px;
+}
+
+.users-text {
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.users-card {
+    display: flex;
+    gap: 20px;
+    /* background-color: aqua; */
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user-name {
+    display: flex;
+    gap: 12px;
+}
+
+.card1,
+.card2,
+.card3 {
+    padding: 24px;
+    background-color: white;
+    border-radius: 14px;
+    /* width: 360px; */
+    /* height: 235px; */
+}
+
+.stars {
+    margin-bottom: 24px;
+}
+
+.card-text {
+    margin-bottom: 24px;
+}
+
+.card-text h4 {
+    color: #1E1E1E;
+}
+
+.card-text p {
+    color: #1E1E1E;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.user-name-text h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #757575;
+}
+
+.user-name-text h5 {
+    color: #B3B3B3;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* form */
+.form-container {
+    width: 1140px;
+    margin: 0 auto;
+    /* background-color: bisque; */
+    display: flex;
+    gap: 115px;
+    padding: 71px 0;
+    margin-bottom: 14px;
+}
+
+.form-text h1 {
+    font-size: 97px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    /* align-items: center; */
+}
+
+.input-form {
+    width: 497px;
+    height: 490px;
+    /* background-color: antiquewhite; */
+}
+
+.btn4 {
+    width: 497px;
+    height: 62px;
+    padding: 19px 200px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    /* text-align: center; */
+}
+
+
+.btn4:hover {
+    background-color: rgb(38, 16, 54);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+input[type="email"] {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 55%;
+    border: none;
+    padding: 20px 34px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+input[type="text"] {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 20px 30px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+textarea {
+    height: 135px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 20px 30px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.bold-text {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600px;
+    /* margin-bottom: 10px; */
+    /* padding: 0 0 10px 0; */
+}
+
+#femail, #fname , #ftext{
+    margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+    /* background-color: antiquewhite; */
+    padding: 104px 450px;
+}
+
+.footer-text-1 {
+
+    font-family: 'Inter', sans-serif;
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-bottom: 8px;
+}
+
+.footer-text-2 {
+    color: #8987A1;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 48px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
